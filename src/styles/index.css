@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.nav {
+  min-height: 100px;
+  background-color: #9a98fc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItem {
+  background-color: #7776c6;
+  max-height: 40px;
+  margin-top: 10px;
+}
+
+.title {
+  min-height: 216px;
+  background-color: #c4c4c4;
+}
+
+#navItemLeft {
+  margin-left: 15px;
+}
+
+#navItemRight {
+  margin-right: 15px;
+}

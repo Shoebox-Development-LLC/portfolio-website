@@ -1,17 +1,10 @@
 import React from 'react'
 
-// styles
-
-const titleStyle = {
-    minHeight: "216px",
-    backgroundColor: "#C4C4C4"
-}
-
 // markup
 
 const Title = () => {
     return (
-        <div style={titleStyle}>
+        <div class="title">
             content heres
         </div>
     )

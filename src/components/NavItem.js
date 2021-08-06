@@ -1,18 +1,10 @@
 import React from 'react'
 
-// styles
-
-const navItemStyle = {
-    backgroundColor: "#7776C6",
-    maxHeight: "40px",
-    marginTop: "10px"
-}
-
 // markup
 
-const NavItem = ({ style }) => {
+const NavItem = ({ id }) => {
     return (
-        <div style={ style || navItemStyle}>
+        <div class="navItem" id={id}>
             test content because it cant be blank
         </div>
     )
