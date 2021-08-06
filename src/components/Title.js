@@ -5,7 +5,7 @@ import React from 'react'
 const Title = () => {
     return (
         <div className="title">
-            content heres
+            <span className="circle" id="circleLeft"></span><h1 id="title">Shoebox Development</h1><span className="circle" id="circleRight"></span>
         </div>
     )
 }
