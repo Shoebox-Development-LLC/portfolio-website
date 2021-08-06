@@ -4,7 +4,7 @@ import React from 'react'
 
 const NavItem = ({ id }) => {
     return (
-        <div class="navItem" id={id}>
+        <div className="navItem" id={id}>
             test content because it cant be blank
         </div>
     )
