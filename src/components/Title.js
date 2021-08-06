@@ -4,7 +4,7 @@ import React from 'react'
 
 const Title = () => {
     return (
-        <div class="title">
+        <div className="title">
             content heres
         </div>
     )
