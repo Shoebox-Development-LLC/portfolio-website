@@ -39,6 +39,19 @@
   position: relative;
 }
 
+.spacer {
+  min-height: 26px;
+  background-color: var(--main-color);
+}
+
+.showcase {
+  min-height: 299px;
+  /*background: url(photo-1516321318423-f06f85e504b3.jpg);*/
+  mix-blend-mode: normal;
+  border: 8px solid var(--main-color);
+  filter: blur(16px);
+}
+
 #navItemLeft {
   margin-left: 15px;
 }
