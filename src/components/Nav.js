@@ -5,14 +5,14 @@ import NavItem from "./NavItem"
 
 const Nav = () => {
     return (
-        <div className="nav">
+        <nav className="nav">
             <NavItem id="navItemLeft"/>
             <NavItem/>
             <NavItem/>
             <NavItem/>
             <NavItem/>
             <NavItem id="navItemRight"/>
-        </div>
+        </nav>
     )
 }
 

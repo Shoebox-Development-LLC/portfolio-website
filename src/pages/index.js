@@ -8,7 +8,7 @@ import Showcase from "../components/Showcase"
 // markup
 const IndexPage = () => {
   return (
-    <main>
+    <>
       <title>Shoebox Development LLC</title>
       <header>
       <Nav/>
@@ -17,8 +17,13 @@ const IndexPage = () => {
       <Showcase/>
       <Spacer/>
       </header>
+      <main>
       enter content here sam
-    </main>
+      </main>
+      <footer>
+
+      </footer>
+    </>
   )
 }
 
