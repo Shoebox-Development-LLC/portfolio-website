@@ -5,7 +5,7 @@ import React from 'react'
 const NavItem = ({ id }) => {
     return (
         <div className="navItem" id={id}>
-            test content because it cant be blank
+            haha it can be blank now
         </div>
     )
 }
