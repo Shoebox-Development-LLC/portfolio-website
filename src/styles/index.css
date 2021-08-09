@@ -1,3 +1,9 @@
+:root {
+  --main-color: #9a98fc;
+  --accent-color: #7776c6;
+  --main-background: #c4c4c4;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +12,13 @@
 
 .nav {
   min-height: 100px;
-  background-color: #9a98fc;
+  background-color: var(--main-color);
   display: flex;
   justify-content: space-between;
 }
 
 .navItem {
-  background-color: #7776c6;
+  background-color: var(--accent-color);
   max-height: 40px;
   margin-top: 10px;
 }
@@ -22,11 +28,11 @@
   justify-content: center;
   align-items: flex-end;
   min-height: 216px;
-  background-color: #c4c4c4;
+  background-color: var(--main-background);
 }
 
 .circle {
-  background-color: #7776c6;
+  background-color: var(--accent-color);
   border-radius: 50%;
   min-width: 152px;
   min-height: 152px;
@@ -45,7 +51,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #7776c6;
+  background-color: var(--accent-color);
   min-height: 152px;
   min-width: 1007px;
 }
