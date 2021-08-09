@@ -46,11 +46,43 @@
 }
 
 .showcase {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   min-height: 299px;
+}
+
+.showcaseBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(16px);
+  z-index: -1;
   /*background: url(photo-1516321318423-f06f85e504b3.jpg);*/
   mix-blend-mode: normal;
   border: 8px solid var(--main-color);
-  filter: blur(16px);
+}
+
+.showcaseItem {
+  border-radius: 50%;
+  min-height: 200px;
+  min-width: 200px;
+  background-color: var(--accent-color);
+}
+
+.showcaseItemText {
+  position: relative;
+  top: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 45px;
+  min-width: 200px;
+  background-color: var(--main-background);
+  border: 8px solid var(--accent-color);
 }
 
 #navItemLeft {
