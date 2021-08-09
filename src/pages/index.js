@@ -4,6 +4,7 @@ import Nav from "../components/Nav"
 import Title from "../components/Title"
 import Spacer from "../components/Spacer"
 import Showcase from "../components/Showcase"
+import LeftCaption from "../components/LeftCaption"
 
 // markup
 const IndexPage = () => {
@@ -18,6 +19,8 @@ const IndexPage = () => {
       <Spacer/>
       </header>
       <main>
+        <LeftCaption header="Our Story" text="This is a sample block of text that will be replaced some time in the
+future. pppppppeeennnnnniisssss"/>
       enter content here sam
       </main>
       <footer>

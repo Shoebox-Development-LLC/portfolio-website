@@ -2,6 +2,7 @@
   --main-color: #9a98fc;
   --accent-color: #7776c6;
   --main-background: #c4c4c4;
+  --backround-accent: #989898;
 }
 
 * {
@@ -84,6 +85,57 @@
   min-width: 200px;
   background-color: var(--main-background);
   border: 8px solid var(--accent-color);
+}
+
+.leftCaption {
+  display: flex;
+  min-height: 600px;
+  background-color: var(--backround-accent);
+}
+
+.leftCaptionCaption {
+  min-width: 60vw;
+  display: flex;
+}
+
+.leftCaptionImage {
+  min-width: 40vw;
+  min-height: 600px;
+  /*background: url(photo-1463171379579-3fdfb86d6285.jpg);*/
+  border: 16px solid var(--accent-color);
+}
+
+.greyBox1 {
+  min-width: 150px;
+  min-height: 600px;
+  background-color: var(--main-background);
+}
+
+.greyBox2 {
+  max-width: 490px;
+  min-height: 100px;
+  background-color: var(--main-background);
+}
+
+.greyCircle {
+  top: 667px;
+  left: 590px;
+  border-radius: 50%;
+  min-width: 100px;
+  min-height: 100px;
+  background-color: var(--main-background);
+  position: absolute;
+  display: block;
+}
+
+.leftCaptionContent {
+  max-width: 541px;
+  min-height: 600px;
+}
+
+.leftCaptionContent p {
+  white-space:normal;
+  word-break:break-all;
 }
 
 #navItemLeft {
