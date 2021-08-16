@@ -5,6 +5,7 @@ import Title from "../components/Title"
 import Spacer from "../components/Spacer"
 import Showcase from "../components/Showcase"
 import LeftCaption from "../components/LeftCaption"
+import MotivationalText from "../components/MotivationalText"
 
 // markup
 const IndexPage = () => {
@@ -14,6 +15,8 @@ const IndexPage = () => {
       <header>
       <Nav/>
       <Title/>
+      <Spacer/>
+      <MotivationalText text="insert motivational text"/>
       <Spacer/>
       <Showcase/>
       <Spacer/>

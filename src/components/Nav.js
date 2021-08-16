@@ -6,12 +6,12 @@ import NavItem from "./NavItem"
 const Nav = () => {
     return (
         <nav className="nav">
-            <NavItem id="navItemLeft"/>
-            <NavItem/>
-            <NavItem/>
-            <NavItem/>
-            <NavItem/>
-            <NavItem id="navItemRight"/>
+            <NavItem text="Home Page" id="navItemLeft"/>
+            <NavItem text="About"/>
+            <NavItem text="Testimonials"/>
+            <NavItem text="Gallery"/>
+            <NavItem text="Newsleter"/>
+            <NavItem text="Contact" id="navItemRight"/>
         </nav>
     )
 }
