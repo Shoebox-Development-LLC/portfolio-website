@@ -99,7 +99,7 @@
 }
 
 .leftCaptionImage {
-  min-width: 40vw;
+  width: 40vw;
   min-height: 600px;
   /*background: url(photo-1463171379579-3fdfb86d6285.jpg);*/
   border: 16px solid var(--accent-color);
