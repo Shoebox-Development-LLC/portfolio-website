@@ -2,7 +2,7 @@
   --main-color: #9a98fc;
   --accent-color: #7776c6;
   --main-background: #c4c4c4;
-  --backround-accent: #989898;
+  --background-accent: #989898;
 }
 
 * {
@@ -90,7 +90,7 @@
 .leftCaption {
   display: flex;
   min-height: 600px;
-  background-color: var(--backround-accent);
+  background-color: var(--background-accent);
 }
 
 .leftCaptionCaption {
@@ -134,8 +134,8 @@
 }
 
 .leftCaptionContent p {
-  white-space:normal;
-  word-break:break-all;
+  white-space: normal;
+  word-break: break-all;
 }
 
 #navItemLeft {
