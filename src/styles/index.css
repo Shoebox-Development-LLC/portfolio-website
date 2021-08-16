@@ -122,8 +122,6 @@
 }
 
 .greyCircle {
-  top: 781px;
-  left: 590px;
   border-radius: 50%;
   min-width: 100px;
   min-height: 100px;
@@ -173,4 +171,39 @@
 
 #circleRight {
   left: -76px;
+}
+
+#greyCircle0 {
+  top: 781px;
+  left: 590px;
+}
+
+#greyCircle1 {
+  top: 1407px;
+  left: 1230px;
+}
+
+#leftCaption1 {
+  flex-direction: row-reverse;
+}
+
+#leftCaptionCaption1 {
+  flex-direction: row-reverse;
+}
+
+#greyBox20 {
+  display: flex;
+  align-items: center;
+}
+
+#greyBox21 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#leftCaptionContent1 p {
+  color: white;
+  position: relative;
+  left: -50px;
 }
