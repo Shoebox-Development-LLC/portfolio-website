@@ -1,5 +1,5 @@
-import React from "react";
-import NavItem from "./NavItem";
+import React from "react"
+import NavItem from "./NavItem"
 
 // markup
 
@@ -13,7 +13,7 @@ const Nav = () => {
       <NavItem text='Newsleter' />
       <NavItem text='Contact' id='navItemRight' />
     </nav>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav

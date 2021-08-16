@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 // markup
 
@@ -9,7 +9,7 @@ const Title = () => {
       <h1 id='title'>Shoebox Development</h1>
       <span className='circle' id='circleRight'></span>
     </div>
-  );
-};
+  )
+}
 
-export default Title;
+export default Title

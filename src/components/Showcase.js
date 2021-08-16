@@ -1,5 +1,5 @@
-import React from "react";
-import ShowcaseItem from "./ShowcaseItem";
+import React from "react"
+import ShowcaseItem from "./ShowcaseItem"
 
 const Showcase = () => {
   return (
@@ -12,7 +12,7 @@ const Showcase = () => {
       <ShowcaseItem text='Other Service' />
       <ShowcaseItem text='Other Service' />
     </div>
-  );
-};
+  )
+}
 
-export default Showcase;
+export default Showcase

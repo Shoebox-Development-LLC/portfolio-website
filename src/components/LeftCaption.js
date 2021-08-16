@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const LeftCaption = ({
   header,
@@ -23,7 +23,7 @@ const LeftCaption = ({
       </div>
       <div className='leftCaptionImage'></div>
     </div>
-  );
-};
+  )
+}
 
-export default LeftCaption;
+export default LeftCaption

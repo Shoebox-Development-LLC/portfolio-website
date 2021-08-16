@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 // markup
 
@@ -7,7 +7,7 @@ const NavItem = ({ text, id }) => {
     <div className='navItem' id={id}>
       {text}
     </div>
-  );
-};
+  )
+}
 
-export default NavItem;
+export default NavItem
