@@ -190,12 +190,12 @@
 #leftCaptionCaption1 {
   flex-direction: row-reverse;
 }
-
+/*grey box 2_0, aka second box(header box) on the first(0) leftCaption*/
 #greyBox20 {
   display: flex;
   align-items: center;
 }
-
+/*grey box 2_1, aka second box(header box) on the second(1) leftCaption*/
 #greyBox21 {
   display: flex;
   justify-content: end;
