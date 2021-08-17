@@ -6,6 +6,7 @@ import Spacer from "../components/Spacer"
 import Showcase from "../components/Showcase"
 import LeftCaption from "../components/LeftCaption"
 import MotivationalText from "../components/MotivationalText"
+import Footer from "../components/Footer"
 
 // markup
 const IndexPage = () => {
@@ -42,7 +43,9 @@ future. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudi
         />
         <Spacer />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }

@@ -148,6 +148,11 @@
   min-height: 88px;
 }
 
+.footer {
+  min-height: 247px;
+  background-color: var(--accent-color);
+}
+
 #navItemLeft {
   margin-left: 15px;
 }
