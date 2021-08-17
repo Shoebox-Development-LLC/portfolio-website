@@ -207,3 +207,7 @@
   position: relative;
   left: -50px;
 }
+
+#leftCaptionContent0 p {
+  color: white;
+}

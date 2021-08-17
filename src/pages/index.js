@@ -28,6 +28,7 @@ const IndexPage = () => {
 future. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin nunc ex. Quisque ut ante vel nisi malesuada luctus at in nisl. Suspendisse potenti. Sed at neque id risus iaculis commodo. Morbi nec ligula ante. Duis ac dui elit. Cras sit amet dolor laoreet, vestibulum erat a, laoreet libero. Vivamus mollis consectetur nisl, sed dictum arcu pharetra eget. Vivamus laoreet tellus sem, non hendrerit augue elementum eu. Sed vel mollis est, vehicula tincidunt tortor. Curabitur faucibus mauris a risus pellentesque, sed finibus turpis efficitur. Quisque vehicula, orci eu suscipit luctus, libero mauris molestie lectus, vitae convallis est risus eget sem. '
           idCircle='greyCircle0'
           idGreyBox='greyBox20'
+          idLeftCaptionContent='leftCaptionContent0'
         />
         <Spacer />
         <LeftCaption
