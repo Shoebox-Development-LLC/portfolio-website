@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.shoeboxdevelopment.com",
     title: "portfolio-website",
   },
   plugins: [],
-};
+}
