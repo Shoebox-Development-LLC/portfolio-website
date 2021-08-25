@@ -250,3 +250,33 @@
 #leftCaptionContent0 p {
   color: white;
 }
+
+@media screen and (max-width: 500px) {
+  .nav {
+    min-height: 50px;
+  }
+  .navItem {
+    display: none;
+  }
+  .circle {
+    min-width: 50px;
+    min-height: 50px;
+  }
+  .title {
+    min-height: 75px;
+  }
+  #title {
+    min-width: 250px;
+    min-height: 50px;
+    z-index: 1;
+    white-space: nowrap;
+  }
+  #circleLeft {
+    left: 25px;
+    z-index: 0;
+  }
+  #circleRight {
+    left: -25px;
+    z-index: 0;
+  }
+}
