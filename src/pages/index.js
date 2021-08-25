@@ -7,12 +7,19 @@ import Showcase from "../components/Showcase"
 import LeftCaption from "../components/LeftCaption"
 import MotivationalText from "../components/MotivationalText"
 import Footer from "../components/Footer"
+import Helmet from "react-helmet"
 
 // markup
 const IndexPage = () => {
   return (
     <>
-      <title>Shoebox Development LLC</title>
+      <Helmet htmlAttributes={{ lang: "en" }}>
+        <title>Shoebox Development LLC</title>
+        <meta
+          name='description'
+          content='Shoebox Development LLC is a Web Development & IT Services company.'
+        />
+      </Helmet>
       <header>
         <Nav />
         <Title />

@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.shoeboxdevelopment.com",
     title: "portfolio-website",
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-react-helmet`],
 }
