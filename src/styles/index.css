@@ -1,8 +1,8 @@
 :root {
   --main-color: #9a98fc;
   --accent-color: #7776c6;
-  --main-background: #c4c4c4;
-  --background-accent: #989898;
+  --main-background: #7a3d3d;
+  --background-accent: #3e3d7a;
 }
 
 * {
@@ -13,7 +13,7 @@
 
 .nav {
   min-height: 100px;
-  background-color: var(--main-color);
+  background-color: var(--accent-color);
   display: flex;
   justify-content: space-between;
 }
@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: var(--accent-color);
+  background-color: var(--main-background);
   max-height: 40px;
   min-width: 200px;
   margin-top: 10px;
@@ -35,7 +35,7 @@
   justify-content: center;
   align-items: flex-end;
   min-height: 216px;
-  background-color: var(--main-background);
+  background-color: var(--background-accent);
 }
 
 .circle {
