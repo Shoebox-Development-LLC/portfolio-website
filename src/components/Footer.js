@@ -6,37 +6,41 @@ const Footer = () => {
       <div className='footerSocialMedia'>
         <h3>Social Media</h3>
         <ul>
-          <a
-            href='https://www.instagram.com/shoeboxdevelopment'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <li>Instagram</li>
-          </a>
-          <a
-            href='https://www.twitter.com/shoeboxdevelop'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <li>Twitter</li>
-          </a>
+          <li>
+            <a
+              href='https://www.instagram.com/shoeboxdevelopment'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://www.twitter.com/shoeboxdevelop'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Twitter
+            </a>
+          </li>
         </ul>
       </div>
       <div className='footerQuickNavigation'>
         <h3>Quick Navigation</h3>
         <ul>
-          <a href='/'>
-            <li>Home</li>
-          </a>
-          <a href='/services'>
-            <li>Services</li>
-          </a>
-          <a href='/about'>
-            <li>About Shoebox Development</li>
-          </a>
-          <a href='/contact'>
-            <li>Contact Us</li>
-          </a>
+          <li>
+            <a href='/'>Home</a>
+          </li>
+          <li>
+            <a href='/services'>Services</a>
+          </li>
+          <li>
+            <a href='/about'>About Shoebox Development</a>
+          </li>
+          <li>
+            <a href='/contact'>Contact Us</a>
+          </li>
         </ul>
       </div>
       <div className='footerContacts'>
