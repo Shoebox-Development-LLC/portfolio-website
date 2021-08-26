@@ -2,11 +2,11 @@ import React from "react"
 
 // markup
 
-const NavItem = ({ text, id }) => {
+const NavItem = ({ text, id, link }) => {
   return (
-    <div className='navItem' id={id}>
+    <a className='navItem' id={id} href={link}>
       {text}
-    </div>
+    </a>
   )
 }
 
