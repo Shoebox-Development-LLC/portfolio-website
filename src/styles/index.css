@@ -196,14 +196,17 @@
   background-color: var(--accent-color);
   min-height: 152px;
   min-width: 1007px;
+  z-index: 1;
 }
 
 #circleLeft {
   left: 76px;
+  z-index: 0;
 }
 
 #circleRight {
   left: -76px;
+  z-index: 0;
 }
 
 #greyCircle0 {
@@ -256,6 +259,15 @@
   color: white;
 }
 
+@media screen and (max-width: 1250px) and (min-width: 500px) {
+  .navItem {
+    min-width: 10vw;
+  }
+  #title {
+    min-width: 80vw;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .nav {
     min-height: 50px;
@@ -273,15 +285,12 @@
   #title {
     min-width: 250px;
     min-height: 50px;
-    z-index: 1;
     white-space: nowrap;
   }
   #circleLeft {
     left: 25px;
-    z-index: 0;
   }
   #circleRight {
     left: -25px;
-    z-index: 0;
   }
 }
