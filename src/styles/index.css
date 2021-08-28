@@ -16,6 +16,7 @@
   background-color: var(--accent-color);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navItem {
@@ -24,18 +25,18 @@
   align-items: center;
   color: white;
   background-color: var(--main-background);
-  max-height: 40px;
+  min-height: 40px;
   min-width: 200px;
-  margin-top: 10px;
   text-decoration: none;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .title {
   color: white;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   min-height: 216px;
   background-color: var(--background-accent);
 }
