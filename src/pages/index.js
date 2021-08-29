@@ -24,11 +24,11 @@ const IndexPage = () => {
           name='description'
           content='Shoebox Development LLC is a Web Development & IT Services company.'
         />
+        <meta name='keywords' content='web design, web development, it' />
       </Helmet>
       <header>
         <Nav />
         <Title />
-        <Spacer />
         <MotivationalText text='insert motivational text' />
         <Spacer />
         <Showcase />

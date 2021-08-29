@@ -85,14 +85,12 @@
 
 .showcaseItemText {
   position: relative;
-  top: 175px;
+  top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 45px;
   min-width: 200px;
-  background-color: var(--main-background);
-  border: 8px solid var(--accent-color);
 }
 
 .leftCaption {
