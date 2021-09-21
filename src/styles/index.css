@@ -111,12 +111,6 @@
   /*background: url(photo-1463171379579-3fdfb86d6285.jpg);*/
 }
 
-.greyBox1 {
-  min-width: 150px;
-  min-height: 600px;
-  background-color: var(--main-background);
-}
-
 .greyBox2 {
   max-width: 490px;
   min-height: 100px;

@@ -12,7 +12,6 @@ const LeftCaption = ({
   return (
     <div className='leftCaption' id={idLeftCaption}>
       <div className='leftCaptionCaption' id={idLeftCaptionCaption}>
-        <div className='greyBox1'></div>
         <div className='leftCaptionContent' id={idLeftCaptionContent}>
           <div className='greyBox2' id={idGreyBox}>
             <h2>{header}</h2>
@@ -21,7 +20,6 @@ const LeftCaption = ({
           <p>{text}</p>
         </div>
       </div>
-      <div className='leftCaptionImage'></div>
     </div>
   )
 }
