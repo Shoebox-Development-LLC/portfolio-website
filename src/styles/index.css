@@ -1,8 +1,8 @@
 :root {
-  --main-color: #9a98fc;
-  --accent-color: #7776c6;
+  --main-color: #333333;
+  --accent-color: #333333;
   --main-background: #7a3d3d;
-  --background-accent: #3e3d7a;
+  --background-accent: #fffcf8;
 }
 
 * {
@@ -79,7 +79,7 @@
   border-radius: 50%;
   min-height: 200px;
   min-width: 200px;
-  background-color: var(--accent-color);
+  background-color: var(--main-background);
   color: white;
 }
 
@@ -109,7 +109,6 @@
   width: 40vw;
   min-height: 600px;
   /*background: url(photo-1463171379579-3fdfb86d6285.jpg);*/
-  border: 16px solid var(--accent-color);
 }
 
 .greyBox1 {
@@ -140,6 +139,7 @@
 .leftCaptionContent p {
   white-space: normal;
   word-break: break-all;
+  color: var(--main-color);
 }
 
 .motivationalText {
@@ -248,15 +248,10 @@
   left: 51px;
 }
 
-#leftCaptionContent1 p {
-  color: white;
-  /*position: relative;
-  left: -50px;*/
-}
-
-#leftCaptionContent0 p {
-  color: white;
-}
+/*#leftCaptionContent1 p {
+  position: relative;
+  left: -50px;
+}*/
 
 @media screen and (max-width: 1250px) and (min-width: 500px) {
   .navItem {

@@ -30,7 +30,6 @@ const IndexPage = () => {
         <Nav />
         <Title />
         <MotivationalText text='insert motivational text' />
-        <Spacer />
         <Showcase />
         <Spacer />
       </header>
